@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} antialiased flex flex-col m-auto min-h-screen`}>
         <Navigation />
-        <div className="px-20 flex-1">
+        <div className="flex-1">
           {children}
         </div>
         <Footer />
